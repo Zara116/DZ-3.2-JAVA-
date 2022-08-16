@@ -1,9 +1,8 @@
 public class BmiService {
-    public int calculate(double m, double h) {
-        double h2=(h/100);
-        double h3=h2*h2;
-        double bmi = (m/h3);
-
+    public int calculate(double weight, double height) {
+        double height2 = (height / 100);
+        double height3 = height2 * height2;
+        double bmi = (weight / height3);
 
 
         return (int) bmi;
